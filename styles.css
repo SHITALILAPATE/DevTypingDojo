@@ -1,0 +1,115 @@
+ body {
+            background-color: #f8d3e0; 
+            color: #4b2c6f; 
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1, h2 {
+            font-family: 'Comic Sans MS', cursive, sans-serif; 
+        }
+        .motivation, .practice-area, .anime-gif {
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #e8c6e8; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+        button {
+            background-color: #4b2c6f; 
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #6a4f8a; 
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            height: 150px;
+        }
+        .countdown {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4b2c6f; 
+        }
+        .output {
+            font-size: 20px;
+            margin-top: 10px;
+            white-space: pre-wrap;
+        }
+        .highlight {
+            display: inline-block;
+            padding: 2px;
+            border-radius: 3px;
+        }
+        .correct {
+            background-color: #1d9fd3be;
+        }
+        .wrong {
+            background-color: #e78888; 
+        }
+        :root {
+            --bg-color: #f8d3e0; 
+            --text-color: #4b2c6f; 
+            --box-color: #e8c6e8; 
+            --button-bg: #4b2c6f;
+        }
+        
+        .dark-mode {
+            --bg-color: #2c2c2c; 
+            --text-color: #f8d3e0; 
+            --box-color: #3d3d3d; 
+            --button-bg: #ff9ff3;
+        }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+            transition: background 0.3s, color 0.3s;
+        }
+        h1, h2 {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        .motivation, .practice-area, .anime-gif {
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: var(--box-color);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            transition: background 0.3s;
+        }
+        button {
+            background-color: var(--button-bg);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #6a4f8a;
+        }
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            cursor: pointer;
+        }
