@@ -1,7 +1,7 @@
 # Typing Practice for Developers 🚀
 
-![Demo video](./https://github.com/user-attachments/assets/1194274d-e23b-4259-bf7b-4909afe1212d
-) <!-- Add a screenshot later -->
+<img width="1346" height="710" alt="Screenshot 2025-07-21 142801" src="https://github.com/user-attachments/assets/7079eb30-e845-4473-a82b-20697910f365" />
+
 
 A fun typing practice application designed specifically for developers to improve their coding speed and accuracy. Features motivational coding quotes, real-time feedback, and a dark/light mode toggle.
 
